@@ -1,10 +1,11 @@
 # js101
 
 ## Install
-* Create github account [link](https://github.com/)
+* Create GitHub account [link](https://github.com/)
 * Install Sublime Text [link](https://www.sublimetext.com/)
 * Insetall Sublime Text Package Control [link](https://packagecontrol.io/)
 * Install [nvm](https://github.com/creationix/nvm)
+* Install GitHub desktop [link](https://desktop.github.com/)
 
 ## Install Sublime package
 * AdvancedNewFile
@@ -29,3 +30,5 @@ $ npm install prettier -g
 # Uninstall package from dependencies
 $ npm uninstall underscore --save
 ```
+
+MIT
