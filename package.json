@@ -1,0 +1,14 @@
+{
+  "name": "js101",
+  "version": "1.0.0",
+  "description": "## install * Create github account [link](https://github.com/) * Install [nvm](https://github.com/creationix/nvm) * Create",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.7.2"
+  }
+}
