@@ -44,26 +44,25 @@ for (let i = 0; i < numbers.length; i++){
 	}
 }
 
-console.log(answer3)
-
 // I thought the solution wasn't great, so I went and asked my dad XD
 // updated solution below
 
 let answer4 = []
 
 for (let i = 0; i < numbers.length; i++){
-	let  flag = true
+	let  prime = true
+
 	if (numbers[i] % 2 === 0){
-		flag = 1
+		prime = false
 	}
 
 	for (let j = 3; j < numbers.length; j += 2){
 		if (numbers[i] % j === 0){
-			flag = false
+			prime = false
 		}
 	}
 
-	if (flag === true){
+	if (prime === true){
 		answer4.push(numbers[i])
 	}
 
