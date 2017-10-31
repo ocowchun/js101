@@ -31,39 +31,45 @@ for (let i = 0; i < numbers.length; i++){
 
 let answer3 = []
 
-for (let i = 0; i < numbers.length; i++){
+for (let i = 2; i < 99; i++){
 	let temp = 0
-	for (let j = 2; j < numbers[i]; j++){
-		if (numbers[i] % j === 0){
+	for (let j = 2; j < i; j++){
+		if (i % j === 0){
 			temp += 1
 		}
 	}
 
 	if (temp === 0){
-		answer3.push(numbers[i])
+		answer3.push(i)
 	}
 }
+
+console.log(answer3)
 
 // I thought the solution wasn't great, so I went and asked my dad XD
 // updated solution below
 
 let answer4 = []
 
-for (let i = 0; i < numbers.length; i++){
+for (let i = 2; i < 100; i++){
 	let  prime = true
 
-	if (numbers[i] % 2 === 0){
+	if (i % 2 === 0){
 		prime = false
 	}
 
-	for (let j = 3; j < numbers.length; j += 2){
-		if (numbers[i] % j === 0){
-			prime = false
+	else {
+		for (let j = 3; j < i; j += 2){
+			if (i % j === 0){
+				prime = false
+			}
 		}
 	}
 
 	if (prime === true){
-		answer4.push(numbers[i])
+		answer4.push(i)
 	}
 
 }
+
+console.log(answer4)
