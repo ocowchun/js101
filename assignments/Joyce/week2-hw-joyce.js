@@ -29,29 +29,10 @@ for (let i = 0; i < numbers.length; i++){
 
 // my original answer
 
-let answer3 = []
-
-for (let i = 2; i < 99; i++){
-	let temp = 0
-	for (let j = 2; j < i; j++){
-		if (i % j === 0){
-			temp += 1
-		}
-	}
-
-	if (temp === 0){
-		answer3.push(i)
-	}
-}
-
-console.log(answer3)
-
-// I thought the solution wasn't great, so I went and asked my dad XD
-// updated solution below
-
 let answer4 = []
 
-for (let i = 2; i < 100; i++){
+for (let i = 0; i < 100; i++){
+
 	let  prime = true
 
 	if (i % 2 === 0){
@@ -66,7 +47,7 @@ for (let i = 2; i < 100; i++){
 		}
 	}
 
-	if (prime === true){
+	if (i > 1 && prime){
 		answer4.push(i)
 	}
 
