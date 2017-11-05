@@ -8,7 +8,7 @@ console.log(str1)
 // replace part of string
 // only replace first occurence
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
-let str2 = 'Ruby on Rails'.replace('Ruby', 'React')
+let str2 = 'Ruby on Ruby Rails'.replace('Ruby', 'React')
 console.log(str2)
 
 // replace part of string using regular expression!
@@ -29,6 +29,7 @@ console.log(str4)
 
 // split a string into an array of strings
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+=======
 let str5 = 'Ruby on Rails'.split(' ') // put into array
 let str5 = 'Ruby on Rails'.split(' ')[1] // saves as a string 'on'
 let str5 = 'Ruby on Rails'.split('R') // [ '', 'uby on ', 'ails' ]
@@ -36,11 +37,11 @@ console.log(str5)
 
 // join all elements of an array into a string
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+
+// common Math methods
 let str6 = ['Machine', 'Learning'].join(' ')
 console.log(str6) //'Machine learning'
 
-//---
-// common Math method
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 
 // sqrt
