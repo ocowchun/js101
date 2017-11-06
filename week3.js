@@ -29,7 +29,7 @@ console.log(str4)
 
 // split a string into an array of strings
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
-=======
+
 let str5 = 'Ruby on Rails'.split(' ') // put into array
 let str5 = 'Ruby on Rails'.split(' ')[1] // saves as a string 'on'
 let str5 = 'Ruby on Rails'.split('R') // [ '', 'uby on ', 'ails' ]

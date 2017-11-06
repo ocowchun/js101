@@ -52,3 +52,10 @@ function hello(name = 'ben'){
 }
 
 hello()
+
+function sumAndSquare(a, b){
+  let s = sum(a, b)
+  return Math.pow(s, 2)
+}
+let s2 = sumAndSquare(4,7)
+console.log(s2)
