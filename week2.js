@@ -16,8 +16,8 @@ console.log(sum)
 // https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/if...else
 
 let a = 5
-if (a > 3){
-  console.log('a > 3')
+if (!(a > 3)){ //can include expressions in the condition
+  console.log('a > 3') //block
 }
 
 if (a > 3){
@@ -26,7 +26,6 @@ if (a > 3){
 else{
   console.log('a <= 3')
 }
-
 
 if (a > 3){
   console.log('a > 3')
@@ -43,6 +42,11 @@ else{
 console.log('1' == 1) // return true
 console.log('1' === 1) // return false
 
+let result = (1 > 3) &&  (4 > 2)
+(false || true) && false // AND
+!!1
+false || true // OR
+console.log(result)
 
 // object
 let obj = { foo: 1 }
