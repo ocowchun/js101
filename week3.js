@@ -8,11 +8,11 @@ console.log(str1)
 // replace part of string
 // only replace first occurence
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
-let str2 = 'Ruby on Ruby Rails'.replace('Ruby', 'React')
-console.log(str2)
+let str2 = 'Ruby on Rails'.replace('Ruby', 'React')
+console.log(str2) //React on Rails
 
 // replace part of string using regular expression!
-let str3 = 'Ruby on Rails'.replace(/R/g, 'L') //g = global (forces it to replce all)
+let str3 = 'Ruby on Rails'.replace(/R/g, 'L') //g = global (forces it to replace all)
 console.log(str3)
 
 // compare two string
@@ -25,11 +25,11 @@ console.log('Ruby'.length) //4
 // extract part of string
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice
 let str4 = 'Ruby on Rails'.slice(0, 4) //(start, up to), empty space counts as a character/char
-console.log(str4)
+console.log(str4) //Ruby
 
 // split a string into an array of strings
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
-=======
+
 let str5 = 'Ruby on Rails'.split(' ') // put into array
 let str5 = 'Ruby on Rails'.split(' ')[1] // saves as a string 'on'
 let str5 = 'Ruby on Rails'.split('R') // [ '', 'uby on ', 'ails' ]
