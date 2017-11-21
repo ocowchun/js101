@@ -28,14 +28,19 @@ console.log(num5)
 
 
 // https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Function
-function greeting(name) {
-  console.log(`Hi ${name}`)
+function greeting(greetingWord, name) {
+  console.log(greetingWord + ' '+ name)
+  // console.log(`Hi ${name}`)
 }
-
-greeting('ben')
+greeting('Hello', 'Freda')
 
 function sum(a, b) {
-  return a + b
+  if( a > 5){
+    return a + 7
+  }
+  else{
+    return a + b
+  }
 }
 
 let s = sum(1, 2)
