@@ -47,11 +47,3 @@ let result = (1 > 3) &&  (4 > 2)
 !!1
 false || true // OR
 console.log(result)
-
-// object
-let obj = { foo: 1 }
-
-obj.foo = 'bar'
-let key = 'name'
-obj[key] = 'ben'
-console.log(obj)
