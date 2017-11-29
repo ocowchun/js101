@@ -28,9 +28,10 @@ function shuffle(ary){
   for (let i = 0, max = shuffledAry.length; i < max; i++) {
     let randomIdx = Math.floor(Math.random() * max)
     let tmp = shuffledAry[i]
-    shuffledAry[randomIdx] = shuffledAry[i]
-    shuffledAry[i] = tmp
+    shuffledAry[i] = shuffledAry[randomIdx]
+    shuffledAry[randomIdx] = tmp
   }
+  return shuffledAry
 }
 
 // Question 4: write a function `max` which have one argument `ary` and
